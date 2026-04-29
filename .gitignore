@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 .venv/
+.conda_env/
 .tmp/
 data/
 outputs/
