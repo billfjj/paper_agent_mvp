@@ -1,0 +1,8 @@
+streamlit>=1.34
+pydantic>=2.7
+pymupdf>=1.24
+bibtexparser>=1.4
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+pyyaml>=6.0

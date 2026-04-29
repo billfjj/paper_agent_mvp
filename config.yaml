@@ -1,0 +1,19 @@
+app:
+  name: Paper Agent MVP
+  database_path: data/paper_agent.sqlite3
+  outputs_dir: outputs
+
+models:
+  provider: local-template
+  writing_model: null
+  review_model: null
+
+rag:
+  vector_store: chroma
+  persist_dir: data/chroma
+  chunk_size: 1200
+  chunk_overlap: 180
+
+writing:
+  default_style: IEEE
+  default_language: English
